@@ -6,7 +6,13 @@ app.get('/', (req, res) => {
   res.send(res.json({
     name : 'BOB',
     mail : 'bob@gmail.com'
-    }))
+    }, 
+    {
+      name : 'BOB',
+      mail : 'bob@gmail.com'
+    }
+    
+    ))
 })
 
 app.listen(port, () => {
